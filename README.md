@@ -1,2 +1,2 @@
 # React-Fundamentals
-eggehead.io course
+https://egghead.io/courses/react-fundamentals
