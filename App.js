@@ -1,3 +1,31 @@
+/*
+*
+// no error, but glyphicon did not load
+import React from 'react';
+class App extends React.Component {
+  render() {
+    return <Button>I <Heart/> React</Button>
+  }
+}
+
+class Button extends React.Component {
+  render() {
+    return <button>{this.props.children}</button>
+
+  }
+}
+
+const Heart = () => <span className="glyphicon glyphicon-heart"></span>
+
+
+export default App
+
+*
+*/
+
+/*
+*
+// slider components
 import React from 'react';
 import ReactDOM from 'react-dom';
 class App extends React.Component {
@@ -47,22 +75,8 @@ class Slider extends React.Component {
 }
 
 export default App
-
-
-/*App.propTypes = {
-  txt: React.PropTypes.string,
-  cat: React.PropTypes.number.isRequired
-}
-
-App.defaultProps = {
-  txt: 'this is the default txt'
-}
-ReactDOM.render(
-  <App cat={8}/>,
-  document.getElementById('app')
-);*/
-
-
+*
+*/
 
 /*
 *
